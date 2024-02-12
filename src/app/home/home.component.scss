@@ -1,0 +1,23 @@
+.home-container{
+    display: flex;
+    .all-institutes{
+        width: 75%;
+        min-height: calc(100vh - 80px);
+        border-right: 1px solid #0ceff3;
+        padding: 20px 40px;
+        font-family: "Roboto", sans-serif;
+        .top{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            h4{
+                text-transform: uppercase;
+            }
+        }
+    }
+    .popular-institutes{
+        width: 25%;
+        padding: 20px 40px;
+        font-family: "Roboto", sans-serif;
+    }
+}
